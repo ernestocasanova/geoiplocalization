@@ -12,6 +12,6 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = [
-    url(r'^log/', views.LoadLogsAPIView.as_view()),
+    url(r'^api/', views.LoadLogsAPIView.as_view()),
     url(r'^', include(admin.site.urls)),
 ]

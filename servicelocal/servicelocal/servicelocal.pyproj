@@ -49,6 +49,7 @@
     <Folder Include="servicelocal\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="FolderProfile.pubxml" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>

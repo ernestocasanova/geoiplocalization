@@ -3,7 +3,7 @@ from app.models import RequestLogs
 
 
 class RequestLogsAdmin(admin.ModelAdmin):
-    list_display = ('id', 'localip', 'created', 'updated')
+    list_display = ('id', 'localip', 'data_raw_details', 'created', 'updated')
     search_fields = ['localip',]
     readonly_fields=('id','created', 'updated')
     order_fields = ['-id']
